@@ -1,2 +1,2 @@
-#!/data/data/com.termux/files/usr/bin/bash
-ls -la | tee ls_cwd_content
+#!/bin/bashh
+ls -la > ls_cwd_content
