@@ -1,0 +1,8 @@
+total 23
+drwx------. 2 u0_a344 u0_a344 3452 Jun 20 09:04 .
+drwx------. 6 u0_a344 u0_a344 3452 Jun 20 08:31 ..
+-rwx------. 1 u0_a344 u0_a344   33 Jun 20 08:41 0-helloworld
+-rwx------. 1 u0_a344 u0_a344   48 Jun 20 08:43 10-no_more_js
+-rwx------. 1 u0_a344 u0_a344   36 Jun 20 09:04 8-cwd_state
+-rwx------. 1 u0_a344 u0_a344   37 Jun 20 08:46 9-duplicate_last_line
+-rw-------. 1 u0_a344 u0_a344    0 Jun 20 09:05 ls_cwd_content
