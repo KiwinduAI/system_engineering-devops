@@ -1,3 +1,2 @@
 #!/bin/bash
-function best { local BEST=School
-}
+local BEST=School
