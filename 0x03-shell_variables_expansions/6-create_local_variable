@@ -1,2 +1,3 @@
 #!/bin/bash
-best() { local BEST=School; }
+best() { local BEST=School
+}
