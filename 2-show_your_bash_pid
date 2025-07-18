@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# This script lists running processes and filters to show only those containing 'bash'
+# This script displays a list of running processes filtered to only show lines containing "bash"
 # shellcheck disable=SC2009
-
 ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep bash
