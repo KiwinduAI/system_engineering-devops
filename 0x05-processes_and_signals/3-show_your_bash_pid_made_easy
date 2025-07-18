@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays PID and process name of all processes containing "bash"
+
+# shellcheck disable=SC2009
+pgrep -a bash | grep -v "3-show_your_bash_pid_made_easy" | while read -r pid cmd; do
+    pname=$(basename "$cmd")
+    echo "$pid $pname"
+done
