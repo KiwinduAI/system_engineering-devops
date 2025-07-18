@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ps -eo user,lstart,cmd --sort=lstart
+ps -eo user,lstart,cmd --sort=start_time | head -n 20 | awk 'NR==1{$2="STARTED "; print; next} {print}'
