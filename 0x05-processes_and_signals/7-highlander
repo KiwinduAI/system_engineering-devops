@@ -1,0 +1,9 @@
+#!/bin/bash
+# 7-highlander - Infinite loop that ignores SIGTERM signal
+
+trap '' SIGTERM  # Ignore SIGTERM signal
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
