@@ -1,7 +1,7 @@
-#!/bin/bash
-# 7-highlander - Infinite loop that ignores SIGTERM signal
+#!/usr/bin/env bash
+# 7-highlander - Infinite loop that prints "To infinity and beyond" and ignores SIGTERM by printing a message
 
-trap '' SIGTERM  # Ignore SIGTERM signal
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
     echo "To infinity and beyond"
