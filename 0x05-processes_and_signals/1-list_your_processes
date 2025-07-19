@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Display running processes with user, full start time, and command
+# List running processes with user and command only
 
-echo "USER STARTED COMMAND"
-ps -eo user,lstart,comm | tail -n +2
+echo "USER COMMAND"
+ps -eo user:20,comm | tail -n +2
