@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-# Script to list all running processes with hierarchy and relevant details
+# Display running processes with user, full start time, and command
 
-# Print a single header line
-echo "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT STARTED   TIME COMMAND"
-
-# List all processes with the specified columns, forest view (process tree), without ps default header
-ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest --no-headers
+echo "USER STARTED COMMAND"
+ps -eo user,lstart,comm | tail -n +2
